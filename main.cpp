@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
             }
             qDebug() << "Invalid input data!";
         }
-        qDebug() << "Can not open file: " << argv[1];
+        qDebug() << "Cannot open file: " << argv[1];
     }
     return 0;
 }
